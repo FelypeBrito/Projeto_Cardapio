@@ -132,22 +132,22 @@ addressInput.addEventListener("input", function (event) {
 
 checkoutBtn.addEventListener("click", function () {
     const isOpen = checkRestaurantOpen();
-/*
-    if(!isOpen){
-        Toastify({
-            text: "A Lanchonete está fechada!",
-            duration: 3000,
-            close: true,
-            gravity: "top", // `top` or `bottom`
-            position: "right", // `left`, `center` or `right`
-            stopOnFocus: true, // Prevents dismissing of toast on hover
-            style: {
-              background: "#ef4444",
-            },
-            onClick: function(){} // Callback after click
-          }).showToast();
-    }
-*/
+    /*
+        if(!isOpen){
+            Toastify({
+                text: "A Lanchonete está fechada!",
+                duration: 3000,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                position: "right", // `left`, `center` or `right`
+                stopOnFocus: true, // Prevents dismissing of toast on hover
+                style: {
+                  background: "#ef4444",
+                },
+                onClick: function(){} // Callback after click
+              }).showToast();
+        }
+    */
     if (cart.length === 0) return;
     if (addressInput.value === "") {
         addressWarn.classList.remove("hidden")
@@ -156,14 +156,14 @@ checkoutBtn.addEventListener("click", function () {
     }
 
     //Enviar o pedido para api whats
-    const cartItem = cart.map((item)=>{
-        return ( 
+    const cartItem = cart.map((item) => {
+        return (
             `${item.name} Quantidade: (${item.quantity}) Preço: R$${item.price} |`
         )
     }).join("")
 
     const message = encodeURIComponent(cartItem)
-    const phone = "+5514982130609"
+    const phone = "+5514981252939"
 
     window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank")
 
