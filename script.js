@@ -132,7 +132,7 @@ addressInput.addEventListener("input", function (event) {
 
 checkoutBtn.addEventListener("click", function () {
     const isOpen = checkRestaurantOpen();
-    /*
+    
         if(!isOpen){
             Toastify({
                 text: "A Lanchonete está fechada!",
@@ -147,7 +147,7 @@ checkoutBtn.addEventListener("click", function () {
                 onClick: function(){} // Callback after click
               }).showToast();
         }
-    */
+    
     if (cart.length === 0) return;
     if (addressInput.value === "") {
         addressWarn.classList.remove("hidden")
