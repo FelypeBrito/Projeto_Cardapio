@@ -1,5 +1,5 @@
 
-# 🍔 Fylpas Burguer!
+# 🍔 Fylpaas Burguer!
 
 ## 📖 Sobre o Projeto
 **Fylpas Burguer** é um site interativo para uma hamburgueria fictícia. Ele oferece um cardápio completo de hambúrgueres e bebidas, com funcionalidades de carrinho de compras e finalização de pedidos via WhatsApp.
@@ -24,7 +24,7 @@
 
 ## 🌐 Acesse o Projeto
 Você pode acessar o projeto hospedado na Vercel clicando no link abaixo:
-🔗 **[Fylpas Burguer - Projeto](https://projeto-cardapio-rose.vercel.app/)**
+🔗 **[Fylpaas Burguer - Projeto](https://projeto-cardapio-rose.vercel.app/)**
 
 ---
 
@@ -43,6 +43,6 @@ O layout do projeto é responsivo, adaptando-se para diferentes dispositivos.
 ---
 
 ## 📷 Prévia
-![Menu Preview](https://via.placeholder.com/800x400?text=Preview+do+Menu)
+![Menu Preview](https://github.com/user-attachments/assets/fd1071a9-c642-40f4-a897-5214996269dd)
 
 ---
